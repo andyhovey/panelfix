@@ -1,0 +1,201 @@
+
+/*****************************************
+    reset/misc
+*****************************************/
+table, tr, td, input, select, textarea, ul, ol {font-size: 1em; vertical-align: top;}
+input, select, textarea {font-family: Helvetica, Arial, sans-serif;}
+pre, code, address, caption, cite, code {font-size: 1em; font-weight: normal; font-style: normal;}
+html, body, dl, dt, dd, pre, form, blockquote, fieldset, input, select {margin: 0; padding: 0;}
+sup {vertical-align: top;}
+fieldset, img {border: none;}
+caption, th {text-align: left;}
+table {/*border-collapse: collapse;*/ border-spacing: 0;}/* border-collapse stuffs up in FF: fails to draw <td> borders when using dynamic hide/show */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, video {display: block; margin: 0; padding: 0;}
+
+img { max-width: 100%; } /* make 'em flexible */
+
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #fff;
+    background: #193445;
+    font-family: "Source Sans Pro", Helvetica, Arial, Sans-serif;
+    text-align: center;
+    padding: 5% 3%;
+}
+
+.size--big {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.size--medium {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 100px;
+    height: 29px;
+}
+
+.size--small {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.size--tiny {
+    opacity: .7;
+    font-size: 13px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.caps {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    padding: 22px 30px 0px 30px;
+    margin: 0;
+}
+
+.border--bottom {
+    border-bottom: 1px solid #304857;
+    padding-bottom: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #193445;
+}
+
+a img {
+    border: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.transition {
+    transition: border .3s;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+.map a:hover {
+    border: none;
+}
+
+.past-job {
+    margin: 25px 0px 50px 0px;
+    max-width: 790px;
+}
+
+.past-job:last-child {
+    margin-bottom: 0px;
+}
+
+.past-job .size--small {
+    padding: 0;
+    margin: 8px 0px 0px 0px;
+    opacity: .7;
+}
+
+.past-job img {
+    border: 5px solid #304857;
+    border-radius: 3px;
+}
+
+.margin--top {
+    margin-top: 50px;
+}
+
+.quote-wrapper {
+    margin-top: 35px;
+}
+
+h2 + .quote-wrapper {
+    margin-top: 25px;
+}
+
+.quote {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.quote p {
+    text-align: left;
+    padding: 15px 30px;
+    background-color: #1E3B4E;
+    border-radius: 5px;
+    margin: 0;
+    opacity: .7;
+}
+
+.quote-point {
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid rgba(0, 0, 0, 0);
+    border-right: 7px solid rgba(0, 0, 0, 0);
+    border-top: 7px solid #1E3B4E;
+    border-bottom: 0;
+    position: absolute;
+    left: 30px;
+    bottom: -6px;
+}
+
+.quote-source {
+    text-align: left;
+    padding: 0px 0px 0px 30px;
+    margin: 0px;
+    opacity: .7;
+}
+
+.car-pic {
+    width: 130px;
+    height: 40px;
+    margin: 80px auto 10px auto;
+}
+
+
+@media only screen and (min-width : 700px) {
+    .logo {
+        width: 138px;
+        height: 40px;
+    }
+    .size--big {
+        font-size: 38px;
+    }
+
+    .size--medium {
+        font-size: 20px;
+    }
+
+    .size--small {
+        font-size: 16px;
+    }
+
+    .size--tiny {
+        font-size: 13px;
+    }
+
+}
+
+
+
